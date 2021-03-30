@@ -1,0 +1,21 @@
+{
+    "name": "fabioleal/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fabio Leal",
+            "email": "fsl2@msn.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.2",
+        "symfony/css-selector": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
