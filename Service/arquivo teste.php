@@ -1,2 +1,2 @@
 <?php
-echo " O senhor é meu pastor e nada me faltará!";
+echo " O senhor é meu pastor e nada me faltará!".PHP_EOL;
