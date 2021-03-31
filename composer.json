@@ -21,5 +21,20 @@
         "psr-4": {
             "Alura\\BuscadorDeCursos\\": "src/"
         }
+    },
+    "scripts": {
+        "help": "composer --help",
+        "clear": "clear",
+        "check": [
+            "@help",
+            "@clear"
+        ],
+        "post-update-cmd": [
+            "@clear"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Comando que executa o Help e lista os arquivos"
     }
+
 }
